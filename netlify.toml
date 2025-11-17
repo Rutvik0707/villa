@@ -1,0 +1,18 @@
+[build]
+  publish = "."
+  
+[[redirects]]
+  from = "/"
+  to = "/bhagwat_villa_extrior_morning/index.html"
+  status = 200
+  force = false
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*/2025-*/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
