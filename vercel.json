@@ -1,5 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/bhagwat_villa_extrior_morning/index.html" }
-  ]
+  "github": {
+    "silent": true
+  }
 }
