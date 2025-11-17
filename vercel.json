@@ -1,0 +1,10 @@
+{
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/bhagwat_villa_extrior_morning/index.html"
+    }
+  ]
+}
